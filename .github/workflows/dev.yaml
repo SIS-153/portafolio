@@ -2,7 +2,7 @@ name: Despliegue Temporal React con Docker y Ngrok
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main1"]
   workflow_dispatch:  # Permite ejecución manual
 
 jobs:
