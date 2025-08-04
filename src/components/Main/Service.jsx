@@ -16,7 +16,7 @@ const Service = () => (
         </h2>
         <div className="row">
             <div className="columns" data-aos="fade-up" data-aos-delay="200">
-                <i className="fas fa-sitemap"></i>
+                <i className="fas fa-cloud"></i>
                 <h3>
                     <FormattedMessage
                         id='design'

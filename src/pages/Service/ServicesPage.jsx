@@ -30,67 +30,67 @@ const Services = () => {
         </h2>
         <div className="row">
             <div className="columns" data-aos="fade-up" data-aos-delay="200">
-                <i className="fas fa-drafting-compass"></i>
+                <i className="fas fa-cloud"></i>
                 <h3>
                     <FormattedMessage
                         id='design'
-                        defaultMessage='ADesign UX/UIboult me'
+                        defaultMessage='Cloud and DevOps Architecture'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='design-info'
-                        defaultMessage='Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website'
+                        defaultMessage='Design of scalable, secure, and high-availability solutions on platforms like AWS and GCP. Strategic DevOps planning to optimize your development and operations workflows.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="300">
-                <i className="fas fa-laptop"></i>
+                <i className="fas fa-cogs"></i>
                 <h3>
                     <FormattedMessage
                         id='development'
-                        defaultMessage='Web development'
+                        defaultMessage='CI/CD Automation'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='development-info'
-                        defaultMessage='Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website.'
+                        defaultMessage='Implementation of Continuous Integration and Continuous Deployment (CI/CD) pipelines with tools like Jenkins and GitHub Actions to accelerate quality software delivery in an automated way.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
-                <i className="fas fa-chart-line"></i>
+                <i className="fab fa-docker"></i>
                 <h3>
                     <FormattedMessage
                         id='marketing'
-                        defaultMessage='Digital marketing'
+                        defaultMessage='Container Orchestration'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='marketing-info'
-                        defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        defaultMessage='Deployment and management of modern applications using Docker and Kubernetes (K8s). We simplify scalability, portability, and the lifecycle management of your services.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="500">
-                <i className="fas fa-wrench"></i>
+                <i className="fas fa-tasks"></i>
                 <h3>
                     <FormattedMessage
                         id='maintenance'
-                        defaultMessage='Web maintenance'
+                        defaultMessage='Configuration Management with Ansible'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='maintenance-info'
-                        defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        defaultMessage='Automation of server and application provisioning and configuration using Ansible. We guarantee consistent, reproducible, and manually error-free environments.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="600">
-                <i className="fas fa-search"></i>
+                <i className="fas fa-server"></i>
                 <h3>
                     <FormattedMessage
                         id='seo'
@@ -100,22 +100,22 @@ const Services = () => {
                 <p>
                     <FormattedMessage
                         id='seo-info'
-                        defaultMessage='Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines'
+                        defaultMessage='Comprehensive management of Linux servers and code repositories (Git). We ensure security, performance, and best practices in version control.'
                     />
                 </p>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="700">
-                <i className="fas fa-tachometer-alt"></i>
+                <i className="fas fa-chart-area"></i>
                 <h3>
                     <FormattedMessage
                         id='optimization'
-                        defaultMessage='Website optimization'
+                        defaultMessage='Monitoring and Optimization (SRE)'
                     />
                 </h3>
                 <p>
                     <FormattedMessage
                         id='optimization-info'
-                        defaultMessage='Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website'
+                        defaultMessage='Application of SRE principles. Implementation of proactive monitoring and logging to ensure maximum reliability and performance, while optimizing infrastructure costs.'
                     />
                 </p>
             </div>
@@ -126,7 +126,7 @@ const Services = () => {
           <h2 className="heading">
             <FormattedMessage
               id='services-price'
-              defaultMessage='Price'
+              defaultMessage='Service Plans'
             />
           </h2>
           <div className="row">
@@ -134,13 +134,13 @@ const Services = () => {
               <h3>
                 <FormattedMessage
                   id='services-info-title-1'
-                  defaultMessage='Essential'
+                  defaultMessage='Consulting & Design'
                 />
               </h3>
               <h4 className="sub-title">
                 <FormattedMessage
                   id='services-info-sub-title-1'
-                  defaultMessage='Perfect for new businesses'
+                  defaultMessage='Ideal for starting in the cloud'
                 />
               </h4>
               <p className="numero"><span>Bs.</span>-</p>
@@ -150,7 +150,7 @@ const Services = () => {
                   <span >
                     <FormattedMessage
                       id='services-info-1-p1'
-                      defaultMessage='1 responsive page'
+                      defaultMessage='Current infrastructure analysis'
                     />
                   </span>
                 </li>
@@ -159,7 +159,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-p2'
-                      defaultMessage='+3 sections for page'
+                      defaultMessage='Cloud architecture design (AWS/GCP)'
                     />
                   </span>
                 </li>
@@ -168,7 +168,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-p3'
-                      defaultMessage='Contact Form'
+                      defaultMessage='CI/CD pipeline planning'
                     />
                   </span>
                 </li>
@@ -177,7 +177,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-p4'
-                      defaultMessage='Domain for 1 year'
+                      defaultMessage='Security recommendations'
                     />
                   </span>
                 </li>
@@ -186,7 +186,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-p5'
-                      defaultMessage='Hosting for 1 year'
+                      defaultMessage='Cost estimation'
                     />
                   </span>
                 </li>
@@ -195,7 +195,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-1-p6'
-                      defaultMessage='Delivered in 5 business days'
+                      defaultMessage='Strategic plan delivery'
                     />
                   </span>
                 </li>
@@ -212,13 +212,13 @@ const Services = () => {
               <h3>
                 <FormattedMessage
                   id='services-info-title-2'
-                  defaultMessage='Professional'
+                  defaultMessage='Implementation & Deployment'
                 />
               </h3>
               <h4 className="sub-title">
                 <FormattedMessage
                   id='services-info-sub-title-2'
-                  defaultMessage='Designed for medium businesses'
+                  defaultMessage='For projects that need to take off'
                 />
               </h4>
               <p className="numero"><span>Bs.</span>--</p>
@@ -228,43 +228,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-2-p1'
-                      defaultMessage='5 responsive page'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p2'
-                      defaultMessage='+3 sections for page'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p3'
-                      defaultMessage='Contact Form'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p4'
-                      defaultMessage='Domain for 1 year'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p5'
-                      defaultMessage='Hosting for 1 year'
+                      defaultMessage='Everything from the Consulting plan'
                     />
                   </span>
                 </li>
@@ -273,7 +237,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-p6'
-                      defaultMessage='animations'
+                      defaultMessage='Infrastructure as Code (Terraform)'
                     />
                   </span>
                 </li>
@@ -282,7 +246,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-p7'
-                      defaultMessage='Free maintenance for 6 months'
+                      defaultMessage='Functional CI/CD pipeline (Jenkins/GitHub Actions)'
                     />
                   </span>
                 </li>
@@ -291,100 +255,7 @@ const Services = () => {
                   <span>
                     <FormattedMessage
                       id='services-info-2-p6'
-                      defaultMessage='Delivered in 7 business days'
-                    />
-                  </span>
-                </li>
-              </ul>
-              
-              {/* <div className='portafolio-btn'>
-                <a href="#" className="custom-btn btn ">
-                  <FormattedMessage
-                    id='services-buy'
-                    defaultMessage='buy now'
-                  />
-                </a> 
-              </div> */}
-            </div>
-            <div className="columns" data-aos="fade-up" data-aos-delay="400">
-              <h3>Premium</h3>
-              <h4 className="sub-title">
-                <FormattedMessage
-                  id='services-info-sub-title-3'
-                  defaultMessage='Great for large websites'
-                />
-              </h4>
-              <p className="numero"><span>Bs.</span>---</p>
-              <ul className="ul-cards-services">
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-3-p1'
-                      defaultMessage='+10 responsive pages'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p2'
-                      defaultMessage='+3 sections for page'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p3'
-                      defaultMessage='Contact Form'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p4'
-                      defaultMessage='Domain for 1 year'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p5'
-                      defaultMessage='Hosting for 1 year'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-p6'
-                      defaultMessage='animations'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-3-p7'
-                      defaultMessage='Free maintenance for 1 year'
-                    />
-                  </span>
-                </li>
-                <li>
-                  <i className="fas fa-check"></i>
-                  <span>
-                    <FormattedMessage
-                      id='services-info-3-p6'
-                      defaultMessage='Delivered in 14 business days'
+                      defaultMessage='Containerization of 1 App (Docker)'
                     />
                   </span>
                 </li>
@@ -394,7 +265,60 @@ const Services = () => {
                 <a href="#" className="custom-btn btn-codigo">
                   <FormattedMessage
                     id='services-buy'
-                    defaultMessage='buy now'
+                    defaultMessage='Request a Quote'
+                  />
+                </a> 
+              </div> */}
+            </div>
+            <div className="columns" data-aos="fade-up" data-aos-delay="400">
+              <h3>
+                <FormattedMessage
+                  id='services-info-title-3'
+                  defaultMessage='Premium'
+                />
+              </h3>
+              <h4 className="sub-title">
+                <FormattedMessage
+                  id='services-info-sub-title-3'
+                  defaultMessage='Ongoing Support & Optimization'
+                />
+              </h4>
+              <p className="numero"><span>Bs.</span>---</p>
+              <ul className="ul-cards-services">
+                <li>
+                  <i className="fas fa-check"></i>
+                  <span>
+                    <FormattedMessage
+                      id='services-info-3-p1'
+                      defaultMessage='Everything from the Implementation plan'
+                    />
+                  </span>
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  <span>
+                    <FormattedMessage
+                      id='services-info-3-p7'
+                      defaultMessage='Monitoring, logging, and alerts'
+                    />
+                  </span>
+                </li>
+                <li>
+                  <i className="fas fa-check"></i>
+                  <span>
+                    <FormattedMessage
+                      id='services-info-3-p6'
+                      defaultMessage='SRE support and maintenance'
+                    />
+                  </span>
+                </li>
+              </ul>
+              
+              {/* <div className='portafolio-btn'>
+                <a href="#" className="custom-btn btn-codigo">
+                  <FormattedMessage
+                    id='services-buy'
+                    defaultMessage='Request a Quote'
                   />
                 </a>
               </div> */}
@@ -406,18 +330,18 @@ const Services = () => {
           <h2 className="heading">
             <FormattedMessage
               id='services-questions'
-              defaultMessage='Frequent questions'
+              defaultMessage='Frequently Asked Questions about DevOps & Cloud'
             />
           </h2>
           <div className="accordion-container">
             <Accordion
               title={<FormattedMessage
                 id='services-questions-1'
-                defaultMessage='What is a responsive web page?'
+                defaultMessage='What is DevOps and why do I need it?'
               />}
               content={<FormattedMessage
                 id='services-questions-p1'
-                defaultMessage='It is that page that is capable of adapting to any device where it is viewed, such as cell phones, tablets, laptops, without losing appearance or usability.'
+                defaultMessage='DevOps is a culture that unites software development (Dev) and operations (Ops) to shorten development lifecycles and deliver high-quality software continuously. You need it to accelerate innovation, improve reliability, and scale your operations efficiently.'
               />}
               dataAos="fade-right"
               dataAosDelay="300"
@@ -426,11 +350,11 @@ const Services = () => {
             <Accordion
               title={<FormattedMessage
                 id='services-questions-2'
-                defaultMessage='What is a Domain and a Hosting?'
+                defaultMessage='What is Infrastructure as Code (IaC)?'
               />}
               content={<FormattedMessage
                 id='services-questions-p2'
-                defaultMessage='Both are essential elements of a website. In short, the domain name is the address of the web page, while the hosting provides the space and resources necessary to launch the website.'
+                defaultMessage="It's the practice of managing and provisioning your infrastructure (servers, networks, databases) using code and automation tools like Terraform. This ensures your environments in AWS or GCP are consistent, reproducible, and easy to modify, reducing manual errors."
               />}
               dataAos="fade-left"
               dataAosDelay="300"
@@ -439,11 +363,11 @@ const Services = () => {
             <Accordion
               title={<FormattedMessage
                 id='services-questions-3'
-                defaultMessage='Is monthly maintenance necessary?'
+                defaultMessage='When should I use Kubernetes (K8s)?'
               />}
               content={<FormattedMessage
                 id='services-questions-p3'
-                defaultMessage='Regular maintenance of your website allows you to attract and retain customers with new information, new products and services, in addition to helping you maintain or improve your ranking in Google.'
+                defaultMessage='You should use Kubernetes when you need to manage containerized applications (Docker) at scale. K8s automates the deployment, scaling, and management of your services, ensuring high availability and efficient resource use, which is crucial for deploying complex systems to production.'
               />}
               dataAos="fade-right"
               dataAosDelay="300"
@@ -452,11 +376,11 @@ const Services = () => {
             <Accordion
               title={<FormattedMessage
                 id='services-questions-4'
-                defaultMessage='How to pay'
+                defaultMessage='How does a CI/CD pipeline speed up deployment to production?'
               />}
               content={<FormattedMessage
                 id='services-questions-p4'
-                defaultMessage='You can pay online by credit or debit cards and payments by transfers.'
+                defaultMessage='A Continuous Integration and Continuous Deployment (CI/CD) pipeline automates the steps to take your code from the repository to production (compilation, testing, deployment). This eliminates slow, error-prone manual processes, allowing you to release new features quickly, safely, and frequently.'
               />}
               dataAos="fade-left"
               dataAosDelay="300"
