@@ -35,7 +35,7 @@ const Header = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <NavLink className="logo" to="/">
-                <p>=(<span>NAHUEL61920</span>)=></p>
+                <p>=(<span>alvarto1296</span>)=></p>
             </NavLink>
 
             <nav className="navbar">
@@ -57,12 +57,12 @@ const Header = () => {
                         defaultMessage='Services'
                     />
                 </Link>
-                <Link to="proyectos" spy={true} offset={-150} href="#proyectos">
+                {/* <Link to="proyectos" spy={true} offset={-150} href="#proyectos">
                     <FormattedMessage
                         id='projects'
                         defaultMessage='Projects'
                     />
-                </Link>
+                </Link> */}
                 <Link to="contactos" spy={true} offset={-150} href="#contactos">
                     <FormattedMessage
                         id='contact'

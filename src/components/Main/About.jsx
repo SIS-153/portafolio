@@ -27,13 +27,13 @@ const About = () => (
                 <h4>
                     <FormattedMessage
                         id='description'
-                        defaultMessage='My name is Esteban Nahuel Carrizo and I am a full stack developer.'
+                        defaultMessage='My name is Alvaro Flores and I am a DevOps Engineer.'
                     />
                 </h4>
                 <p>
                     <FormattedMessage
                         id='my-description'
-                        defaultMessage='I have been working on web designing and web development for 4 years. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
+                        defaultMessage='I have been dedicated to software development and operations for 5 years, always seeking to improve the efficiency and quality of the processes. I am passionate about technology and enjoy working in a team to achieve exceptional results.'
                     />
                 </p>
                 <ul>
@@ -45,19 +45,33 @@ const About = () => (
                                     defaultMessage='Age:'
                                 />
                             </span>
-                            25
+                            29
                         </p>
                     </li>
                     <li>
                         <p>
                             <span>
-                                Hobbies:{" "}
+                                <FormattedMessage
+                                    id='hobbies-title'
+                                    defaultMessage='Hobbies: '
+                                />
                             </span>
-                                Chess, Football and Programming
+                            <FormattedMessage
+                                id='hobbies-text'
+                                defaultMessage='Video Games, Football and Programming'
+                            />
                         </p>
                     </li>
                     <li>
-                        <p><span>Email:</span> estebancarrizo619@gmail.com</p>
+                        <p>
+                            <span>
+                                <FormattedMessage
+                                    id='email-title'
+                                    defaultMessage='Email:'
+                                />
+                            </span>
+                            {' '}alvarto1296@gmail.com
+                        </p>
                     </li>
                     <li>
                         <p>
@@ -67,7 +81,7 @@ const About = () => (
                                     defaultMessage='From:'
                                 />
                             </span>
-                            Tucumán, Argentina
+                            La Paz, Bolivia
                         </p>
                     </li>
                 </ul>
@@ -86,94 +100,64 @@ const About = () => (
                 </div>
             </div>
             <div className="columns col-skill" data-aos="fade-left" data-aos-delay="650">
-                <h3>skills</h3>
-                <h4>Front-End</h4>
-                <div className="skill">
-                    <div>
-                        <img alt="HTML" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
-                        <h5>HTML</h5>
-                    </div>
-                    <div>
-                        <img alt="CSS" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-                        <h5>CSS</h5>
-                    </div>
-                    <div>
-                        <img alt="Js" className="icons-skils" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
-                        <h5>JavaScript</h5>
-                    </div>
-                    <div>
-                        <img alt="Sass" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
-                        <h5>Sass</h5>
-                    </div>
-                    <div>
-                        <img alt="Bootstrap" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-                        <h5>Bootstrap</h5>
-                    </div>
-                    <div>
-                        <img alt="jQuery" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" />
-                        <h5>jQuery</h5>
-                    </div>
-                    <div>
-                        <img alt="React" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                        <h5>React</h5>
-                    </div>
-                    <div>
-                        <img alt="Typescript" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                        <h5>Typescript</h5>
-                    </div>
-                </div>
-                <h4>Back-End</h4>
-                <div className="skill">
-                    <div>
-                        <img alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                        <h5>NodeJs</h5>
-                    </div>
-                    <div>
-                        <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                        <h5>Express</h5>
-                    </div>
-                    <div>
-                        <img alt="php" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-                        <h5>PHP</h5>
-                    </div>
-                    <div>
-                        <img alt="laravel" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
-                        <h5>Laravel</h5>
-                    </div>
-                    <div>
-                        <img alt="mysql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
-                        <h5>MySQL</h5>
-                    </div>
-                    <div>
-                        <img alt="postgresql" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" />
-                        <h5>PostgreSQL</h5>
-                    </div>
-                    <div>
-                        <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
-                        <h5>MongodDB</h5>
-                    </div>
-                </div>
-                <h4>
+                <h3>
                     <FormattedMessage
                         id='tools'
                         defaultMessage='Tools'
                     />
-                </h4>
+                </h3>
                 <div className="skill">
                     <div>
-                        <img alt="figma" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="figma" />
-                        <h5>Figma</h5>
+                        <img alt="Java" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" />
+                        <h5>Java</h5>
                     </div>
                     <div>
-                        <img alt="photoshop" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" title="Photoshop" />
-                        <h5>Photoshop</h5>
+                        <img alt="Spring" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" title="Spring" />
+                        <h5>Spring</h5>
                     </div>
                     <div>
-                        <img alt="Visual Studio Code" className="icons-skils" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Visual_Studio_Code_1.18_icon.svg/1200px-Visual_Studio_Code_1.18_icon.svg.png" title="Visual Studio Code" />
-                        <h5>VS Code</h5></div>
+                        <img alt="Docker" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" title="Docker" />
+                        <h5>Docker</h5>
+                    </div>
                     <div>
-                        <img alt="git" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" />
+                        <img alt="Kubernetes" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" title="Kubernetes" />
+                        <h5>Kubernetes</h5>
+                    </div>
+                    <div>
+                        <img alt="Jenkins" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" title="Jenkins" />
+                        <h5>Jenkins</h5>
+                    </div>
+                    <div>
+                        <img alt="Git" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git" />
                         <h5>Git</h5>
+                    </div>
+                    <div>
+                        <img alt="SonarQube" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" title="SonarQube" />
+                        <h5>SonarQube</h5>
+                    </div>
+                    <div>
+                        <img alt="Terraform" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" title="Terraform" />
+                        <h5>Terraform</h5>
+                    </div>
+                    <div>
+                        <img alt="Ansible" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" title="Ansible" />
+                        <h5>Ansible</h5>
+                    </div>
+                    <div>
+                        <img alt="AWS" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" title="AWS" />
+                        <h5>AWS</h5>
+                    </div>
+                    <div>
+                        <img alt="Linux" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" title="Linux" />
+                        <h5>Linux</h5>
+                    </div>
+                    <div>
+                        <img alt="GCP" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" title="GCP" />
+                        <h5>GCP</h5>
+                    </div>
+                    <div>
+                        <img alt="GitHub Actions" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" title="GitHub Actions" />
+                        <h5>GitHub Actions</h5>
                     </div>
                 </div>
             </div>

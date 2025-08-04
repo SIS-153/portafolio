@@ -33,7 +33,7 @@ const HeaderPage = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <NavLink className="logo" to="/" >
-                <p>=(<span>NAHUEL61920</span>)=></p>
+                <p>=(<span>alvarto1296</span>)=></p>
             </NavLink>
 
             <nav className="navbar">
@@ -55,12 +55,12 @@ const HeaderPage = () => {
                         defaultMessage='Services'
                     />
                 </NavLink>
-                <NavLink to="/project" offset={-150} duration={500}>
+                {/* <NavLink to="/project" offset={-150} duration={500}>
                     <FormattedMessage
                         id='projects'
                         defaultMessage='Projects'
                     />
-                </NavLink>
+                </NavLink> */}
                 <div id="buttons">
                     <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
                     <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />

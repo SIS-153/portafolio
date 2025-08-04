@@ -1,3 +1,1 @@
-# Portfolio Nahuel61920 1.9.0 🖥️
-
-![preview img](/preview.png)
+# Portfolio alvarto1296 1.0.0 🖥️
