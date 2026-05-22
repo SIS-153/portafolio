@@ -58,7 +58,7 @@ const About = () => (
                             </span>
                             <FormattedMessage
                                 id='hobbies-text'
-                                defaultMessage='Video Games, Football and Programming'
+                                defaultMessage='Dota, World of Warcraft, Football, Volleyball, Wally, Politics, History and Tech Curiosity & Learning'
                             />
                         </p>
                     </li>
